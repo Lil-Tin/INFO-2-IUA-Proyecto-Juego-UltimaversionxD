@@ -20,7 +20,7 @@ public:
     void constructor();
     void dibujar(RenderWindow *);
     void setearposicion();
-    int retornarY();
+    Sprite retornarSprite();
     int retornarX();
 
 

@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/martin skere/Desktop/UltimaVersion
+# Install script for directory: C:/Users/alumno/Downloads/INFO-2-IUA-Proyecto-Juego-UltimaversionxD-master/UltimaVersion
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/martin skere/Desktop/UltimaVersion/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/alumno/Downloads/INFO-2-IUA-Proyecto-Juego-UltimaversionxD-master/UltimaVersion/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

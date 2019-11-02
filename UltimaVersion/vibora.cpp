@@ -4,6 +4,7 @@
 #include <SFML/Graphics.hpp>
 #include "vibora.h"
 #include <iostream>
+#include "comida.h"
 using namespace sf;
 
 void vibora::constructor() {
@@ -21,24 +22,46 @@ void vibora::constructor() {
 
 }
 
-void vibora::dibujar(RenderWindow* pantalla) {
+void vibora::dibujar(RenderWindow* pantalla , int direccion) {
 
     movimiento *aux1 = fondo;
+    do {
+        switch (direccion) {// 0 derecha - 2 arriba - 3 abajo - 1 izquierda
+            case 0:
 
-    do{
-        sVibora.setPosition(aux1->posicionX, aux1->posicionY);
-        pantalla->draw(sVibora);
-        aux1 = aux1->sig;
+                sVibora.setPosition(aux1->posicionX , aux1->posicionY);
+                pantalla->draw(sVibora);
+                aux1 = aux1->sig;
 
-    }while (aux1->sig!=NULL);
 
+                break;
+            case 1:
+                sVibora.setPosition(aux1->posicionX, aux1->posicionY);
+                pantalla->draw(sVibora);
+                aux1 = aux1->sig;
+
+
+                break;
+            case 2:
+                sVibora.setPosition(aux1->posicionX, aux1->posicionY);
+                pantalla->draw(sVibora);
+                aux1 = aux1->sig;
+
+                break;
+            case 3:
+                sVibora.setPosition(aux1->posicionX, aux1->posicionY);
+                pantalla->draw(sVibora);
+                aux1 = aux1->sig;
+                break;
+        }
+    }while(aux1->sig!=NULL);
 
     if (aux1->sig==NULL) {
         sVibora.setPosition(aux1->posicionX, aux1->posicionY);
         pantalla->draw(sVibora);
 
         }
-
+//sleep(milliseconds(200));
 }
 
 void vibora::moverse( int direccion) {
@@ -50,23 +73,25 @@ void vibora::moverse( int direccion) {
 
     switch (direccion){
         case 0:
-            aux->posicionX=aux->posicionX+10;
+            aux->posicionX=aux->posicionX+20;
 
             break;
         case 1:
-            aux->posicionX=aux->posicionX-10;
+            aux->posicionX=aux->posicionX-20;
 
             break;
         case 2:
-            aux->posicionY=aux->posicionY-10;
+            aux->posicionY=aux->posicionY-20;
 
             break;
         case 3:
-            aux->posicionY=aux->posicionY+10;
+            aux->posicionY=aux->posicionY+20;
 
             break;
     }
+    aux = fondo ;
     fondo = fondo->sig;
+    delete aux;
     frente = frente->sig;
 
 
@@ -91,6 +116,40 @@ int vibora::retornarY() {
 int vibora::retornarX() {
     return frente->posicionY;
 }
+
+
+bool vibora::comio(Sprite sComida) {
+
+    if(sVibora.getGlobalBounds().intersects(sComida.getGlobalBounds())){
+        std::cout<<"SI"<<std::endl;
+        return  true;
+    }
+
+    return  false;
+}
+
+bool vibora::choco() {
+    Sprite aux = sVibora;
+    movimiento *aux2 = fondo;
+
+
+    while (aux2->sig != NULL) {
+
+        aux.setPosition(aux2->posicionX, aux2->posicionY);
+
+
+        if (sVibora.getGlobalBounds().intersects(aux.getGlobalBounds())) {
+            std::cout << "Choco" << std::endl;
+            return true;
+        }
+        aux2 = aux2 -> sig;
+    }
+
+    return  false;
+
+}
+
+
 
 
 

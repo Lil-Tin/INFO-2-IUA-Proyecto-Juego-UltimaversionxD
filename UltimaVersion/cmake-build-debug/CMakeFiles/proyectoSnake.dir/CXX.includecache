@@ -6,29 +6,11 @@
 
 #IncludeRegexTransform: 
 
-C:/Users/martin skere/Desktop/UltimaVersion/comida.h
-SFML/Graphics.hpp
--
-
-C:/Users/martin skere/Desktop/UltimaVersion/main.cpp
-iostream
--
-vibora.h
-C:/Users/martin skere/Desktop/UltimaVersion/vibora.h
-comida.h
-C:/Users/martin skere/Desktop/UltimaVersion/comida.h
-SFML/Graphics.hpp
--
-
-C:/Users/martin skere/Desktop/UltimaVersion/vibora.h
-SFML/Graphics.hpp
--
-
-C:/mingw32/include/SFML/Config.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/Config.hpp
 TargetConditionals.h
-C:/mingw32/include/SFML/TargetConditionals.h
+C:/Users/alumno/Desktop/mingw64/include/SFML/TargetConditionals.h
 
-C:/mingw32/include/SFML/Graphics.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/Graphics.hpp
 SFML/Window.hpp
 -
 SFML/Graphics/BlendMode.hpp
@@ -84,21 +66,21 @@ SFML/Graphics/VertexBuffer.hpp
 SFML/Graphics/View.hpp
 -
 
-C:/mingw32/include/SFML/Graphics/BlendMode.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/Graphics/BlendMode.hpp
 SFML/Graphics/Export.hpp
 -
 
-C:/mingw32/include/SFML/Graphics/CircleShape.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/Graphics/CircleShape.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/Shape.hpp
 -
 
-C:/mingw32/include/SFML/Graphics/Color.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/Graphics/Color.hpp
 SFML/Graphics/Export.hpp
 -
 
-C:/mingw32/include/SFML/Graphics/ConvexShape.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/Graphics/ConvexShape.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/Shape.hpp
@@ -106,17 +88,17 @@ SFML/Graphics/Shape.hpp
 vector
 -
 
-C:/mingw32/include/SFML/Graphics/Drawable.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/Graphics/Drawable.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/RenderStates.hpp
 -
 
-C:/mingw32/include/SFML/Graphics/Export.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/Graphics/Export.hpp
 SFML/Config.hpp
 -
 
-C:/mingw32/include/SFML/Graphics/Font.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/Graphics/Font.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/Glyph.hpp
@@ -136,7 +118,7 @@ string
 vector
 -
 
-C:/mingw32/include/SFML/Graphics/Glsl.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/Graphics/Glsl.hpp
 SFML/Graphics/Transform.hpp
 -
 SFML/Graphics/Color.hpp
@@ -148,15 +130,15 @@ SFML/System/Vector3.hpp
 SFML/Graphics/Glsl.inl
 -
 
-C:/mingw32/include/SFML/Graphics/Glsl.inl
+C:/Users/alumno/Desktop/mingw64/include/SFML/Graphics/Glsl.inl
 
-C:/mingw32/include/SFML/Graphics/Glyph.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/Graphics/Glyph.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/Rect.hpp
 -
 
-C:/mingw32/include/SFML/Graphics/Image.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/Graphics/Image.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/Color.hpp
@@ -168,9 +150,9 @@ string
 vector
 -
 
-C:/mingw32/include/SFML/Graphics/PrimitiveType.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/Graphics/PrimitiveType.hpp
 
-C:/mingw32/include/SFML/Graphics/Rect.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/Graphics/Rect.hpp
 SFML/System/Vector2.hpp
 -
 algorithm
@@ -178,15 +160,15 @@ algorithm
 SFML/Graphics/Rect.inl
 -
 
-C:/mingw32/include/SFML/Graphics/Rect.inl
+C:/Users/alumno/Desktop/mingw64/include/SFML/Graphics/Rect.inl
 
-C:/mingw32/include/SFML/Graphics/RectangleShape.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/Graphics/RectangleShape.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/Shape.hpp
 -
 
-C:/mingw32/include/SFML/Graphics/RenderStates.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/Graphics/RenderStates.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/BlendMode.hpp
@@ -194,7 +176,7 @@ SFML/Graphics/BlendMode.hpp
 SFML/Graphics/Transform.hpp
 -
 
-C:/mingw32/include/SFML/Graphics/RenderTarget.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/Graphics/RenderTarget.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/Color.hpp
@@ -216,7 +198,7 @@ SFML/Graphics/Vertex.hpp
 SFML/System/NonCopyable.hpp
 -
 
-C:/mingw32/include/SFML/Graphics/RenderTexture.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/Graphics/RenderTexture.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/Texture.hpp
@@ -226,7 +208,7 @@ SFML/Graphics/RenderTarget.hpp
 SFML/Window/ContextSettings.hpp
 -
 
-C:/mingw32/include/SFML/Graphics/RenderWindow.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/Graphics/RenderWindow.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/RenderTarget.hpp
@@ -238,7 +220,7 @@ SFML/Window/Window.hpp
 string
 -
 
-C:/mingw32/include/SFML/Graphics/Shader.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/Graphics/Shader.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/Glsl.hpp
@@ -256,7 +238,7 @@ map
 string
 -
 
-C:/mingw32/include/SFML/Graphics/Shape.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/Graphics/Shape.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/Drawable.hpp
@@ -268,7 +250,7 @@ SFML/Graphics/VertexArray.hpp
 SFML/System/Vector2.hpp
 -
 
-C:/mingw32/include/SFML/Graphics/Sprite.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/Graphics/Sprite.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/Drawable.hpp
@@ -280,7 +262,7 @@ SFML/Graphics/Vertex.hpp
 SFML/Graphics/Rect.hpp
 -
 
-C:/mingw32/include/SFML/Graphics/Text.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/Graphics/Text.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/Drawable.hpp
@@ -300,7 +282,7 @@ string
 vector
 -
 
-C:/mingw32/include/SFML/Graphics/Texture.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/Graphics/Texture.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/Image.hpp
@@ -308,7 +290,7 @@ SFML/Graphics/Image.hpp
 SFML/Window/GlResource.hpp
 -
 
-C:/mingw32/include/SFML/Graphics/Transform.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/Graphics/Transform.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/Rect.hpp
@@ -316,13 +298,13 @@ SFML/Graphics/Rect.hpp
 SFML/System/Vector2.hpp
 -
 
-C:/mingw32/include/SFML/Graphics/Transformable.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/Graphics/Transformable.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/Transform.hpp
 -
 
-C:/mingw32/include/SFML/Graphics/Vertex.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/Graphics/Vertex.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/Color.hpp
@@ -330,7 +312,7 @@ SFML/Graphics/Color.hpp
 SFML/System/Vector2.hpp
 -
 
-C:/mingw32/include/SFML/Graphics/VertexArray.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/Graphics/VertexArray.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/Vertex.hpp
@@ -344,7 +326,7 @@ SFML/Graphics/Drawable.hpp
 vector
 -
 
-C:/mingw32/include/SFML/Graphics/VertexBuffer.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/Graphics/VertexBuffer.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/PrimitiveType.hpp
@@ -354,7 +336,7 @@ SFML/Graphics/Drawable.hpp
 SFML/Window/GlResource.hpp
 -
 
-C:/mingw32/include/SFML/Graphics/View.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/Graphics/View.hpp
 SFML/Graphics/Export.hpp
 -
 SFML/Graphics/Rect.hpp
@@ -364,7 +346,7 @@ SFML/Graphics/Transform.hpp
 SFML/System/Vector2.hpp
 -
 
-C:/mingw32/include/SFML/System.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/System.hpp
 SFML/Config.hpp
 -
 SFML/System/Clock.hpp
@@ -402,23 +384,23 @@ SFML/System/Vector2.hpp
 SFML/System/Vector3.hpp
 -
 
-C:/mingw32/include/SFML/System/Clock.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/System/Clock.hpp
 SFML/System/Export.hpp
 -
 SFML/System/Time.hpp
 -
 
-C:/mingw32/include/SFML/System/Err.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/System/Err.hpp
 SFML/System/Export.hpp
 -
 ostream
 -
 
-C:/mingw32/include/SFML/System/Export.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/System/Export.hpp
 SFML/Config.hpp
 -
 
-C:/mingw32/include/SFML/System/FileInputStream.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/System/FileInputStream.hpp
 SFML/Config.hpp
 -
 SFML/System/Export.hpp
@@ -432,19 +414,19 @@ cstdio
 string
 -
 
-C:/mingw32/include/SFML/System/InputStream.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/System/InputStream.hpp
 SFML/Config.hpp
 -
 SFML/System/Export.hpp
 -
 
-C:/mingw32/include/SFML/System/Lock.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/System/Lock.hpp
 SFML/System/Export.hpp
 -
 SFML/System/NonCopyable.hpp
 -
 
-C:/mingw32/include/SFML/System/MemoryInputStream.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/System/MemoryInputStream.hpp
 SFML/Config.hpp
 -
 SFML/System/InputStream.hpp
@@ -454,23 +436,23 @@ SFML/System/Export.hpp
 cstdlib
 -
 
-C:/mingw32/include/SFML/System/Mutex.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/System/Mutex.hpp
 SFML/System/Export.hpp
 -
 SFML/System/NonCopyable.hpp
 -
 
-C:/mingw32/include/SFML/System/NonCopyable.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/System/NonCopyable.hpp
 SFML/System/Export.hpp
 -
 
-C:/mingw32/include/SFML/System/Sleep.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/System/Sleep.hpp
 SFML/System/Export.hpp
 -
 SFML/System/Time.hpp
 -
 
-C:/mingw32/include/SFML/System/String.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/System/String.hpp
 SFML/System/Export.hpp
 -
 SFML/System/Utf.hpp
@@ -484,9 +466,9 @@ string
 SFML/System/String.inl
 -
 
-C:/mingw32/include/SFML/System/String.inl
+C:/Users/alumno/Desktop/mingw64/include/SFML/System/String.inl
 
-C:/mingw32/include/SFML/System/Thread.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/System/Thread.hpp
 SFML/System/Export.hpp
 -
 SFML/System/NonCopyable.hpp
@@ -496,9 +478,9 @@ cstdlib
 SFML/System/Thread.inl
 -
 
-C:/mingw32/include/SFML/System/Thread.inl
+C:/Users/alumno/Desktop/mingw64/include/SFML/System/Thread.inl
 
-C:/mingw32/include/SFML/System/ThreadLocal.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/System/ThreadLocal.hpp
 SFML/System/Export.hpp
 -
 SFML/System/NonCopyable.hpp
@@ -506,19 +488,19 @@ SFML/System/NonCopyable.hpp
 cstdlib
 -
 
-C:/mingw32/include/SFML/System/ThreadLocalPtr.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/System/ThreadLocalPtr.hpp
 SFML/System/ThreadLocal.hpp
 -
 SFML/System/ThreadLocalPtr.inl
 -
 
-C:/mingw32/include/SFML/System/ThreadLocalPtr.inl
+C:/Users/alumno/Desktop/mingw64/include/SFML/System/ThreadLocalPtr.inl
 
-C:/mingw32/include/SFML/System/Time.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/System/Time.hpp
 SFML/System/Export.hpp
 -
 
-C:/mingw32/include/SFML/System/Utf.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/System/Utf.hpp
 SFML/Config.hpp
 -
 algorithm
@@ -532,21 +514,21 @@ cstdlib
 SFML/System/Utf.inl
 -
 
-C:/mingw32/include/SFML/System/Utf.inl
+C:/Users/alumno/Desktop/mingw64/include/SFML/System/Utf.inl
 
-C:/mingw32/include/SFML/System/Vector2.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/System/Vector2.hpp
 SFML/System/Vector2.inl
 -
 
-C:/mingw32/include/SFML/System/Vector2.inl
+C:/Users/alumno/Desktop/mingw64/include/SFML/System/Vector2.inl
 
-C:/mingw32/include/SFML/System/Vector3.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/System/Vector3.hpp
 SFML/System/Vector3.inl
 -
 
-C:/mingw32/include/SFML/System/Vector3.inl
+C:/Users/alumno/Desktop/mingw64/include/SFML/System/Vector3.inl
 
-C:/mingw32/include/SFML/Window.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/Window.hpp
 SFML/System.hpp
 -
 SFML/Window/Clipboard.hpp
@@ -578,13 +560,13 @@ SFML/Window/WindowHandle.hpp
 SFML/Window/WindowStyle.hpp
 -
 
-C:/mingw32/include/SFML/Window/Clipboard.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/Window/Clipboard.hpp
 SFML/Window/Export.hpp
 -
 SFML/System/String.hpp
 -
 
-C:/mingw32/include/SFML/Window/Context.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/Window/Context.hpp
 SFML/Window/Export.hpp
 -
 SFML/Window/GlResource.hpp
@@ -594,11 +576,11 @@ SFML/Window/ContextSettings.hpp
 SFML/System/NonCopyable.hpp
 -
 
-C:/mingw32/include/SFML/Window/ContextSettings.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/Window/ContextSettings.hpp
 SFML/Config.hpp
 -
 
-C:/mingw32/include/SFML/Window/Cursor.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/Window/Cursor.hpp
 SFML/Window/Export.hpp
 -
 SFML/System/NonCopyable.hpp
@@ -606,7 +588,7 @@ SFML/System/NonCopyable.hpp
 SFML/System/Vector2.hpp
 -
 
-C:/mingw32/include/SFML/Window/Event.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/Window/Event.hpp
 SFML/Config.hpp
 -
 SFML/Window/Joystick.hpp
@@ -618,33 +600,33 @@ SFML/Window/Mouse.hpp
 SFML/Window/Sensor.hpp
 -
 
-C:/mingw32/include/SFML/Window/Export.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/Window/Export.hpp
 SFML/Config.hpp
 -
 
-C:/mingw32/include/SFML/Window/GlResource.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/Window/GlResource.hpp
 SFML/Window/Export.hpp
 -
 SFML/System/NonCopyable.hpp
 -
 
-C:/mingw32/include/SFML/Window/Joystick.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/Window/Joystick.hpp
 SFML/Window/Export.hpp
 -
 SFML/System/String.hpp
 -
 
-C:/mingw32/include/SFML/Window/Keyboard.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/Window/Keyboard.hpp
 SFML/Window/Export.hpp
 -
 
-C:/mingw32/include/SFML/Window/Mouse.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/Window/Mouse.hpp
 SFML/Window/Export.hpp
 -
 SFML/System/Vector2.hpp
 -
 
-C:/mingw32/include/SFML/Window/Sensor.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/Window/Sensor.hpp
 SFML/Window/Export.hpp
 -
 SFML/System/Vector3.hpp
@@ -652,19 +634,19 @@ SFML/System/Vector3.hpp
 SFML/System/Time.hpp
 -
 
-C:/mingw32/include/SFML/Window/Touch.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/Window/Touch.hpp
 SFML/Window/Export.hpp
 -
 SFML/System/Vector2.hpp
 -
 
-C:/mingw32/include/SFML/Window/VideoMode.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/Window/VideoMode.hpp
 SFML/Window/Export.hpp
 -
 vector
 -
 
-C:/mingw32/include/SFML/Window/Window.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/Window/Window.hpp
 SFML/Window/ContextSettings.hpp
 -
 SFML/Window/Cursor.hpp
@@ -688,9 +670,27 @@ SFML/System/String.hpp
 SFML/System/Vector2.hpp
 -
 
-C:/mingw32/include/SFML/Window/WindowHandle.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/Window/WindowHandle.hpp
 SFML/Config.hpp
 -
 
-C:/mingw32/include/SFML/Window/WindowStyle.hpp
+C:/Users/alumno/Desktop/mingw64/include/SFML/Window/WindowStyle.hpp
+
+C:/Users/alumno/Downloads/INFO-2-IUA-Proyecto-Juego-UltimaversionxD-master/UltimaVersion/comida.h
+SFML/Graphics.hpp
+-
+
+C:/Users/alumno/Downloads/INFO-2-IUA-Proyecto-Juego-UltimaversionxD-master/UltimaVersion/vibora.cpp
+SFML/Graphics.hpp
+-
+vibora.h
+C:/Users/alumno/Downloads/INFO-2-IUA-Proyecto-Juego-UltimaversionxD-master/UltimaVersion/vibora.h
+iostream
+-
+comida.h
+C:/Users/alumno/Downloads/INFO-2-IUA-Proyecto-Juego-UltimaversionxD-master/UltimaVersion/comida.h
+
+C:/Users/alumno/Downloads/INFO-2-IUA-Proyecto-Juego-UltimaversionxD-master/UltimaVersion/vibora.h
+SFML/Graphics.hpp
+-
 

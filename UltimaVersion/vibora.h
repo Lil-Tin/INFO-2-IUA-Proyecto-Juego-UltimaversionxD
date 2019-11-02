@@ -24,11 +24,13 @@ private:
 
 public:
     void constructor( );
-    void dibujar(RenderWindow *);
+    void dibujar(RenderWindow *,int);
     void moverse(int);
     void crecer( );
 
-    bool comprobar(RenderWindow *);
+    bool comio(Sprite);
+    bool choco();
+
 
     int retornarX();
     int retornarY();

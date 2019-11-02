@@ -18,7 +18,7 @@ void comida::constructor() {
 }
 
 void comida::setearposicion() {
-    srand(time(NULL));
+
     posicionX=10+rand()%630;
     posicionY=10+rand()%470;
 
@@ -35,6 +35,7 @@ int comida::retornarX() {
     return posicionX;
 }
 
-int comida::retornarY() {
-    return posicionY;
+Sprite comida::retornarSprite() {
+    return sComida;
 }
+

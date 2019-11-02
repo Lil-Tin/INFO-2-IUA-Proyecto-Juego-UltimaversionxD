@@ -6,20 +6,27 @@ using namespace sf;
 
 
 int main() {
+    srand(time(NULL));
     RenderWindow pantalla(VideoMode(640,480), "ProyectoSnake");
-    pantalla.setFramerateLimit(30);
+    pantalla.setFramerateLimit(15);
     pantalla.getSize();
 
     Texture tFondoDePantalla;
     Sprite sFondoDePantalla;
     tFondoDePantalla.loadFromFile("IMAGENES/fondodepantalla.png");
     sFondoDePantalla.setTexture(tFondoDePantalla);
+
     vibora jugador;
-    bool band=false, comidasa=true;
-    int direccion=0, x1, x2, y1, y2; // 1 derecha - 2 arriba - 3 abajo - 0 izquierda
     jugador.constructor();
-    comida Comida;
+    comida Comida;          //Constructores.
     Comida.constructor();
+     //Retorna el sprite y una funcion del SFML va a armar la colision.
+
+    bool Comer=true;
+    int direccion=0; //Variables.
+
+
+
 
 
     while (pantalla.isOpen()) {
@@ -51,33 +58,32 @@ int main() {
         if (Keyboard::isKeyPressed(Keyboard::Space)){
            jugador.crecer();
         }
-        /*if (comidasa){
+        if (Comer){
             Comida.setearposicion();
-            comidasa = false;
-            x1 = Comida.retornarX();
-            y1 = Comida.retornarY();
-            x2 = x1 - 5;
-            x1 = x1 + 5;
-            y2 = y1 - 5;
-            y1 = y1 + 5;
+            Comer = false;
+        }
 
-        }*/
 
 
         std::cout<<direccion<<std::endl;
         jugador.moverse(direccion);
         pantalla.draw(sFondoDePantalla);
         Comida.dibujar(&pantalla);
+        Sprite aux3=Comida.retornarSprite();
 
-        if (jugador.retornarY()>=y2 && jugador.retornarX()<=y1){
-            if(jugador.retornarX()>=x2 && jugador.retornarY()<=x1){
-                comidasa = true;
-                jugador.crecer();
-            }
+        if (jugador.comio(aux3)){
+            jugador.crecer();
+            Comer = true;
+        }
+
+        if (jugador.choco()){
+            std::cout<<"NOse jaja"<<std::endl;
         }
 
 
-        jugador.dibujar(&pantalla);
+
+
+        jugador.dibujar(&pantalla,direccion);
         pantalla.display();
 
 
