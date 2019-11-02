@@ -80,23 +80,14 @@ int main() {
             std::cout<<"NOse jaja"<<std::endl;
         }
 
-
-
+        if(jugador.detectarColisionesFondo()==true){
+           std::cout<<"FUERAFUERAFUERAFUERA"<<std::endl;
+        }
 
         jugador.dibujar(&pantalla,direccion);
         pantalla.display();
 
-
-
-
-
     }
-    
-
-
-
-
-    system("pause");
 
     return 0;
 }

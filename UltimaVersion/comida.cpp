@@ -19,10 +19,8 @@ void comida::constructor() {
 
 void comida::setearposicion() {
 
-    posicionX=10+rand()%630;
-    posicionY=10+rand()%470;
-
-
+    posicionX=rand()%(616-22)+22;
+    posicionY=rand()% (456-60)+69;
 
 }
 

@@ -1,11 +1,11 @@
 file(REMOVE_RECURSE
+  "CMakeFiles/proyectoSnake.dir/comida.cpp.obj"
   "CMakeFiles/proyectoSnake.dir/main.cpp.obj"
   "CMakeFiles/proyectoSnake.dir/vibora.cpp.obj"
-  "CMakeFiles/proyectoSnake.dir/comida.cpp.obj"
-  "proyectoSnake.pdb"
+  "libproyectoSnake.dll.a"
   "proyectoSnake.exe"
   "proyectoSnake.exe.manifest"
-  "libproyectoSnake.dll.a"
+  "proyectoSnake.pdb"
 )
 
 # Per-language clean rules from dependency scanning.

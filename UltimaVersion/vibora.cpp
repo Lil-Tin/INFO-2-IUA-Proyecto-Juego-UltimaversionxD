@@ -130,25 +130,28 @@ bool vibora::comio(Sprite sComida) {
 
 bool vibora::choco() {
     Sprite aux = sVibora;
+    Sprite aux3 = sVibora;
     movimiento *aux2 = fondo;
-
-
-    while (aux2->sig != NULL) {
-
-        aux.setPosition(aux2->posicionX, aux2->posicionY);
-
-
-        if (sVibora.getGlobalBounds().intersects(aux.getGlobalBounds())) {
-            std::cout << "Choco" << std::endl;
+do  {
+    aux3.setPosition(frente->posicionX,frente->posicionY);
+    aux.setPosition(aux2->posicionX, aux2->posicionY);
+        if (aux.getGlobalBounds().intersects(aux3.getGlobalBounds())) {
             return true;
         }
-        aux2 = aux2 -> sig;
-    }
-
+    aux2 = aux2 -> sig;
+    } while (aux2->sig != NULL);
     return  false;
 
 }
 
+bool vibora::detectarColisionesFondo() {
+        if(frente->posicionX<17 || frente->posicionX>621-10 || frente->posicionY<64-10 || frente->posicionY>461-10){
+            return true;
+        }
+        else{
+            return false;
+        }
+    }
 
 
 

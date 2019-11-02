@@ -35,6 +35,8 @@ public:
     int retornarX();
     int retornarY();
 
+    bool detectarColisionesFondo();
+
 };
 
 
