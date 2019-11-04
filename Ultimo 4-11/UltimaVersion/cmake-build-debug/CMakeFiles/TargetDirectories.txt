@@ -1,0 +1,3 @@
+C:/Users/martin skere/Desktop/INFO-2-IUA-Proyecto-Juego-UltimaversionxD-master/UltimaVersion/cmake-build-debug/CMakeFiles/proyectoSnake.dir
+C:/Users/martin skere/Desktop/INFO-2-IUA-Proyecto-Juego-UltimaversionxD-master/UltimaVersion/cmake-build-debug/CMakeFiles/edit_cache.dir
+C:/Users/martin skere/Desktop/INFO-2-IUA-Proyecto-Juego-UltimaversionxD-master/UltimaVersion/cmake-build-debug/CMakeFiles/rebuild_cache.dir
