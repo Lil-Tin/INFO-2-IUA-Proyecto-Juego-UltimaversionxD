@@ -31,9 +31,7 @@ public:
     bool comio(Sprite);
     bool choco();
 
-
-    int retornarX();
-    int retornarY();
+    void resetear();
 
     bool detectarColisionesFondo();
 

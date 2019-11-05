@@ -7,6 +7,7 @@ set(CMAKE_DEPENDS_CHECK_CXX
   "C:/Users/mauri/OneDrive/Desktop/Matias/INFO-2-IUA-Proyecto-Juego/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/UltimaVersion/comida.cpp" "C:/Users/mauri/OneDrive/Desktop/Matias/INFO-2-IUA-Proyecto-Juego/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/UltimaVersion/cmake-build-debug/CMakeFiles/proyectoSnake.dir/comida.cpp.obj"
   "C:/Users/mauri/OneDrive/Desktop/Matias/INFO-2-IUA-Proyecto-Juego/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/UltimaVersion/main.cpp" "C:/Users/mauri/OneDrive/Desktop/Matias/INFO-2-IUA-Proyecto-Juego/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/UltimaVersion/cmake-build-debug/CMakeFiles/proyectoSnake.dir/main.cpp.obj"
   "C:/Users/mauri/OneDrive/Desktop/Matias/INFO-2-IUA-Proyecto-Juego/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/UltimaVersion/vibora.cpp" "C:/Users/mauri/OneDrive/Desktop/Matias/INFO-2-IUA-Proyecto-Juego/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/UltimaVersion/cmake-build-debug/CMakeFiles/proyectoSnake.dir/vibora.cpp.obj"
+  "C:/Users/mauri/OneDrive/Desktop/Matias/INFO-2-IUA-Proyecto-Juego/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/UltimaVersion/vida.cpp" "C:/Users/mauri/OneDrive/Desktop/Matias/INFO-2-IUA-Proyecto-Juego/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/UltimaVersion/cmake-build-debug/CMakeFiles/proyectoSnake.dir/vida.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 

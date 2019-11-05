@@ -203,6 +203,33 @@ vibora.cpp.s:
 	$(MAKE) -f CMakeFiles\proyectoSnake.dir\build.make CMakeFiles/proyectoSnake.dir/vibora.cpp.s
 .PHONY : vibora.cpp.s
 
+vida.obj: vida.cpp.obj
+
+.PHONY : vida.obj
+
+# target to build an object file
+vida.cpp.obj:
+	$(MAKE) -f CMakeFiles\proyectoSnake.dir\build.make CMakeFiles/proyectoSnake.dir/vida.cpp.obj
+.PHONY : vida.cpp.obj
+
+vida.i: vida.cpp.i
+
+.PHONY : vida.i
+
+# target to preprocess a source file
+vida.cpp.i:
+	$(MAKE) -f CMakeFiles\proyectoSnake.dir\build.make CMakeFiles/proyectoSnake.dir/vida.cpp.i
+.PHONY : vida.cpp.i
+
+vida.s: vida.cpp.s
+
+.PHONY : vida.s
+
+# target to generate assembly for a file
+vida.cpp.s:
+	$(MAKE) -f CMakeFiles\proyectoSnake.dir\build.make CMakeFiles/proyectoSnake.dir/vida.cpp.s
+.PHONY : vida.cpp.s
+
 # Help Target
 help:
 	@echo The following are some of the valid targets for this Makefile:
@@ -221,6 +248,9 @@ help:
 	@echo ... vibora.obj
 	@echo ... vibora.i
 	@echo ... vibora.s
+	@echo ... vida.obj
+	@echo ... vida.i
+	@echo ... vida.s
 .PHONY : help
 
 

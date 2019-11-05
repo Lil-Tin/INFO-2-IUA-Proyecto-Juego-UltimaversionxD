@@ -73,12 +73,12 @@ preinstall:
 CMakeFiles/proyectoSnake.dir/all:
 	$(MAKE) -f CMakeFiles\proyectoSnake.dir\build.make CMakeFiles/proyectoSnake.dir/depend
 	$(MAKE) -f CMakeFiles\proyectoSnake.dir\build.make CMakeFiles/proyectoSnake.dir/build
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\mauri\OneDrive\Desktop\Matias\INFO-2-IUA-Proyecto-Juego\INFO-2-IUA-Proyecto-Juego-UltimaversionxD\UltimaVersion\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4 "Built target proyectoSnake"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --progress-dir=C:\Users\mauri\OneDrive\Desktop\Matias\INFO-2-IUA-Proyecto-Juego\INFO-2-IUA-Proyecto-Juego-UltimaversionxD\UltimaVersion\cmake-build-debug\CMakeFiles --progress-num=1,2,3,4,5 "Built target proyectoSnake"
 .PHONY : CMakeFiles/proyectoSnake.dir/all
 
 # Build rule for subdir invocation for target.
 CMakeFiles/proyectoSnake.dir/rule: cmake_check_build_system
-	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\mauri\OneDrive\Desktop\Matias\INFO-2-IUA-Proyecto-Juego\INFO-2-IUA-Proyecto-Juego-UltimaversionxD\UltimaVersion\cmake-build-debug\CMakeFiles 4
+	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\mauri\OneDrive\Desktop\Matias\INFO-2-IUA-Proyecto-Juego\INFO-2-IUA-Proyecto-Juego-UltimaversionxD\UltimaVersion\cmake-build-debug\CMakeFiles 5
 	$(MAKE) -f CMakeFiles\Makefile2 CMakeFiles/proyectoSnake.dir/all
 	$(CMAKE_COMMAND) -E cmake_progress_start C:\Users\mauri\OneDrive\Desktop\Matias\INFO-2-IUA-Proyecto-Juego\INFO-2-IUA-Proyecto-Juego-UltimaversionxD\UltimaVersion\cmake-build-debug\CMakeFiles 0
 .PHONY : CMakeFiles/proyectoSnake.dir/rule

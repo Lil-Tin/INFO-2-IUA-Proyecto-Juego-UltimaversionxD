@@ -5,7 +5,7 @@
 #include "comida.h"
 #include <SFML/Graphics.hpp>
 #include<stdlib.h>
-#include<time.h>
+
 
 using namespace sf;
 
@@ -19,8 +19,8 @@ void comida::constructor() {
 
 void comida::setearposicion() {
 
-    posicionX=rand()%(616-22)+22;
-    posicionY=rand()% (456-60)+69;
+    posicionX=rand()%(616-30)+32;
+    posicionY=rand()% (456-86)+55;
 
 }
 
@@ -29,9 +29,6 @@ void comida::dibujar(RenderWindow *pantalla) {
     pantalla->draw(sComida);
 }
 
-int comida::retornarX() {
-    return posicionX;
-}
 
 Sprite comida::retornarSprite() {
     return sComida;

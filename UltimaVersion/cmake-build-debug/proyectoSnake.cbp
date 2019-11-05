@@ -95,6 +95,12 @@
 		<Unit filename="C:/Users/mauri/OneDrive/Desktop/Matias/INFO-2-IUA-Proyecto-Juego/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/UltimaVersion/vibora.h">
 			<Option target="proyectoSnake"/>
 		</Unit>
+		<Unit filename="C:/Users/mauri/OneDrive/Desktop/Matias/INFO-2-IUA-Proyecto-Juego/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/UltimaVersion/vida.cpp">
+			<Option target="proyectoSnake"/>
+		</Unit>
+		<Unit filename="C:/Users/mauri/OneDrive/Desktop/Matias/INFO-2-IUA-Proyecto-Juego/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/UltimaVersion/vida.h">
+			<Option target="proyectoSnake"/>
+		</Unit>
 		<Unit filename="C:/Users/mauri/OneDrive/Desktop/Matias/INFO-2-IUA-Proyecto-Juego/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/UltimaVersion/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>

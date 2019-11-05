@@ -61,7 +61,7 @@ void vibora::dibujar(RenderWindow* pantalla , int direccion) {
         pantalla->draw(sVibora);
 
         }
-//sleep(milliseconds(200));
+
 }
 
 void vibora::moverse( int direccion) {
@@ -104,24 +104,18 @@ void vibora::moverse( int direccion) {
 void vibora::crecer() {
     movimiento *aux = new movimiento;
     aux->sig= fondo;
+    aux->posicionX=900;
+    aux->posicionY=900;
     fondo = aux;
 
 
 }
 
-int vibora::retornarY() {
-    return frente->posicionY;
-}
-
-int vibora::retornarX() {
-    return frente->posicionY;
-}
 
 
 bool vibora::comio(Sprite sComida) {
 
     if(sVibora.getGlobalBounds().intersects(sComida.getGlobalBounds())){
-        std::cout<<"SI"<<std::endl;
         return  true;
     }
 
@@ -152,6 +146,21 @@ bool vibora::detectarColisionesFondo() {
             return false;
         }
     }
+
+void vibora::resetear() {
+
+    while (fondo->sig!=NULL){
+        movimiento *aux = fondo;
+        fondo = fondo->sig;
+        delete aux;
+    } if (fondo->sig==NULL){
+        delete fondo;
+        delete frente;
+
+    }
+
+
+}
 
 
 

@@ -21,11 +21,6 @@ public:
     void dibujar(RenderWindow *);
     void setearposicion();
     Sprite retornarSprite();
-    int retornarX();
-
-
-
-
 
 };
 

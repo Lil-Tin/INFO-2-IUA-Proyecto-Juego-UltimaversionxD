@@ -2,6 +2,7 @@ file(REMOVE_RECURSE
   "CMakeFiles/proyectoSnake.dir/comida.cpp.obj"
   "CMakeFiles/proyectoSnake.dir/main.cpp.obj"
   "CMakeFiles/proyectoSnake.dir/vibora.cpp.obj"
+  "CMakeFiles/proyectoSnake.dir/vida.cpp.obj"
   "libproyectoSnake.dll.a"
   "proyectoSnake.exe"
   "proyectoSnake.exe.manifest"
