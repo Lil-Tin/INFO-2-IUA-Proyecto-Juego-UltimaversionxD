@@ -11,11 +11,11 @@ using namespace sf;
 class vida {
 private:
     struct nodo{
-        int vidas; //Va a ser el tamaño
-        nodo *sig = NULL;
+        int vidas=1; //Va a ser el tamaño
+        nodo *sig = nullptr;
         int posicionX;
         int posicionY;
-    }*cima;
+    }*cima ;
 
     Texture tVida;
     Sprite sVida;

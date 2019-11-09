@@ -5,136 +5,140 @@
 		<Option title="proyectoSnake"/>
 		<Option makefile_is_custom="1"/>
 		<Option compiler="gcc"/>
-		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\mingw32\;CMake Files\..\..\..\..\mingw32\lib\;CMake Files\..\..\..\..\mingw32\lib\cmake\;CMake Files\..\..\..\..\mingw32\lib\cmake\SFML\;"/>
+		<Option virtualFolders="CMake Files\;CMake Files\..\;CMake Files\..\..\;CMake Files\..\..\..\;CMake Files\..\..\..\..\;CMake Files\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\;CMake Files\..\..\..\..\..\..\MinGW\;CMake Files\..\..\..\..\..\..\MinGW\lib\;CMake Files\..\..\..\..\..\..\MinGW\lib\cmake\;CMake Files\..\..\..\..\..\..\MinGW\lib\cmake\SFML\;"/>
 		<Build>
 			<Target title="all">
-				<Option working_dir="C:/Users/martin skere/Desktop/5-11/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/martin skere/Desktop/5-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
-					<CompileFile command="C:/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/martin skere/Desktop/5-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/martin skere/Desktop/5-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/martin skere/Desktop/5-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="proyectoSnake">
-				<Option output="C:/Users/martin skere/Desktop/5-11/cmake-build-debug/proyectoSnake.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/martin skere/Desktop/5-11/cmake-build-debug"/>
+				<Option output="C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/cmake-build-debug/proyectoSnake.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/mingw32/include"/>
-					<Add directory="C:/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/i686-w64-mingw32"/>
-					<Add directory="C:/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/martin skere/Desktop/5-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 proyectoSnake"/>
-					<CompileFile command="C:/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/martin skere/Desktop/5-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/martin skere/Desktop/5-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/martin skere/Desktop/5-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/cmake-build-debug/Makefile&quot;  VERBOSE=1 proyectoSnake"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="proyectoSnake/fast">
-				<Option output="C:/Users/martin skere/Desktop/5-11/cmake-build-debug/proyectoSnake.exe" prefix_auto="0" extension_auto="0"/>
-				<Option working_dir="C:/Users/martin skere/Desktop/5-11/cmake-build-debug"/>
+				<Option output="C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/cmake-build-debug/proyectoSnake.exe" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/cmake-build-debug"/>
 				<Option object_output="./"/>
 				<Option type="1"/>
 				<Option compiler="gcc"/>
 				<Compiler>
-					<Add directory="C:/mingw32/include"/>
-					<Add directory="C:/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++"/>
-					<Add directory="C:/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/i686-w64-mingw32"/>
-					<Add directory="C:/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include/c++/backward"/>
-					<Add directory="C:/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include"/>
-					<Add directory="C:/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/include-fixed"/>
-					<Add directory="C:/mingw32/bin/../lib/gcc/i686-w64-mingw32/7.3.0/../../../../i686-w64-mingw32/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/mingw32"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include/c++/backward"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/../../../../include"/>
+					<Add directory="c:\mingw\bin\../lib/gcc/mingw32/8.2.0/include-fixed"/>
 				</Compiler>
 				<MakeCommands>
-					<Build command="C:/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/martin skere/Desktop/5-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 proyectoSnake/fast"/>
-					<CompileFile command="C:/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/martin skere/Desktop/5-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/martin skere/Desktop/5-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/martin skere/Desktop/5-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/cmake-build-debug/Makefile&quot;  VERBOSE=1 proyectoSnake/fast"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="edit_cache">
-				<Option working_dir="C:/Users/martin skere/Desktop/5-11/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/martin skere/Desktop/5-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
-					<CompileFile command="C:/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/martin skere/Desktop/5-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/martin skere/Desktop/5-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/martin skere/Desktop/5-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 			<Target title="rebuild_cache">
-				<Option working_dir="C:/Users/martin skere/Desktop/5-11/cmake-build-debug"/>
+				<Option working_dir="C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/cmake-build-debug"/>
 				<Option type="4"/>
 				<MakeCommands>
-					<Build command="C:/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/martin skere/Desktop/5-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
-					<CompileFile command="C:/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/martin skere/Desktop/5-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
-					<Clean command="C:/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/martin skere/Desktop/5-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
-					<DistClean command="C:/mingw32/bin/mingw32-make.exe -f &quot;C:/Users/martin skere/Desktop/5-11/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<Build command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="C:/MinGW/bin/mingw32-make.exe -f &quot;C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
 				</MakeCommands>
 			</Target>
 		</Build>
-		<Unit filename="C:/Users/martin skere/Desktop/5-11/LinkedList.h">
+		<Unit filename="C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/LinkedList.h">
 			<Option target="proyectoSnake"/>
 		</Unit>
-		<Unit filename="C:/Users/martin skere/Desktop/5-11/Nodo.h">
+		<Unit filename="C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/Nodo.h">
 			<Option target="proyectoSnake"/>
 		</Unit>
-		<Unit filename="C:/Users/martin skere/Desktop/5-11/comida.cpp">
+		<Unit filename="C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/comida.cpp">
 			<Option target="proyectoSnake"/>
 		</Unit>
-		<Unit filename="C:/Users/martin skere/Desktop/5-11/comida.h">
+		<Unit filename="C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/comida.h">
 			<Option target="proyectoSnake"/>
 		</Unit>
-		<Unit filename="C:/Users/martin skere/Desktop/5-11/main.cpp">
+		<Unit filename="C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/main.cpp">
 			<Option target="proyectoSnake"/>
 		</Unit>
-		<Unit filename="C:/Users/martin skere/Desktop/5-11/score.cpp">
+		<Unit filename="C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/score.cpp">
 			<Option target="proyectoSnake"/>
 		</Unit>
-		<Unit filename="C:/Users/martin skere/Desktop/5-11/score.h">
+		<Unit filename="C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/score.h">
 			<Option target="proyectoSnake"/>
 		</Unit>
-		<Unit filename="C:/Users/martin skere/Desktop/5-11/vibora.cpp">
+		<Unit filename="C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/textos.cpp">
 			<Option target="proyectoSnake"/>
 		</Unit>
-		<Unit filename="C:/Users/martin skere/Desktop/5-11/vibora.h">
+		<Unit filename="C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/textos.h">
 			<Option target="proyectoSnake"/>
 		</Unit>
-		<Unit filename="C:/Users/martin skere/Desktop/5-11/vida.cpp">
+		<Unit filename="C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/vibora.cpp">
 			<Option target="proyectoSnake"/>
 		</Unit>
-		<Unit filename="C:/Users/martin skere/Desktop/5-11/vida.h">
+		<Unit filename="C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/vibora.h">
 			<Option target="proyectoSnake"/>
 		</Unit>
-		<Unit filename="C:/Users/martin skere/Desktop/5-11/CMakeLists.txt">
+		<Unit filename="C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/vida.cpp">
+			<Option target="proyectoSnake"/>
+		</Unit>
+		<Unit filename="C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/vida.h">
+			<Option target="proyectoSnake"/>
+		</Unit>
+		<Unit filename="C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/CMakeLists.txt">
 			<Option virtualFolder="CMake Files\"/>
 		</Unit>
-		<Unit filename="C:/Users/martin skere/Desktop/5-11/../../../../mingw32/lib/cmake/SFML/SFMLConfig.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\mingw32\lib\cmake\SFML\"/>
+		<Unit filename="C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/../../../../../../MinGW/lib/cmake/SFML/SFMLConfig.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\MinGW\lib\cmake\SFML\"/>
 		</Unit>
-		<Unit filename="C:/Users/martin skere/Desktop/5-11/../../../../mingw32/lib/cmake/SFML/SFMLConfigDependencies.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\mingw32\lib\cmake\SFML\"/>
+		<Unit filename="C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/../../../../../../MinGW/lib/cmake/SFML/SFMLConfigDependencies.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\MinGW\lib\cmake\SFML\"/>
 		</Unit>
-		<Unit filename="C:/Users/martin skere/Desktop/5-11/../../../../mingw32/lib/cmake/SFML/SFMLConfigVersion.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\mingw32\lib\cmake\SFML\"/>
+		<Unit filename="C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/../../../../../../MinGW/lib/cmake/SFML/SFMLConfigVersion.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\MinGW\lib\cmake\SFML\"/>
 		</Unit>
-		<Unit filename="C:/Users/martin skere/Desktop/5-11/../../../../mingw32/lib/cmake/SFML/SFMLSharedTargets-debug.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\mingw32\lib\cmake\SFML\"/>
+		<Unit filename="C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/../../../../../../MinGW/lib/cmake/SFML/SFMLSharedTargets-debug.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\MinGW\lib\cmake\SFML\"/>
 		</Unit>
-		<Unit filename="C:/Users/martin skere/Desktop/5-11/../../../../mingw32/lib/cmake/SFML/SFMLSharedTargets-release.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\mingw32\lib\cmake\SFML\"/>
+		<Unit filename="C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/../../../../../../MinGW/lib/cmake/SFML/SFMLSharedTargets-release.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\MinGW\lib\cmake\SFML\"/>
 		</Unit>
-		<Unit filename="C:/Users/martin skere/Desktop/5-11/../../../../mingw32/lib/cmake/SFML/SFMLSharedTargets.cmake">
-			<Option virtualFolder="CMake Files\..\..\..\..\mingw32\lib\cmake\SFML\"/>
+		<Unit filename="C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/../../../../../../MinGW/lib/cmake/SFML/SFMLSharedTargets.cmake">
+			<Option virtualFolder="CMake Files\..\..\..\..\..\..\MinGW\lib\cmake\SFML\"/>
 		</Unit>
 	</Project>
 </CodeBlocks_project_file>

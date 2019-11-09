@@ -9,22 +9,20 @@ void vida::constructor() {
     tVida.loadFromFile("IMAGENES/corazon.png");
     sVida.setTexture(tVida);
 
-    cima->vidas=1;
+
     cima->posicionX=5;
     cima->posicionY=0;
-    int i = 2;
+    int i = 1;
 
-    while(i!=5) {
+    while(i<4) {
         nodo *aux = new nodo;
         aux->posicionY=cima->posicionY;
         aux->posicionX=cima->posicionX+20;
-        aux->vidas=i;
+        //aux->vidas=i;
         aux->sig=cima;
         cima = aux;
         i++;
-
     }
-    std::cout<<"Anduvo?"<<std::endl;
 
 
 }
@@ -32,11 +30,11 @@ void vida::constructor() {
 void vida::dibujar(RenderWindow *pantalla) {
     nodo *aux = cima;
 
-    while (aux->sig!= NULL ){
+    while (aux->sig!= nullptr ){
         sVida.setPosition(aux->posicionX , aux->posicionY);
         pantalla->draw(sVida);
         aux = aux->sig;
-    }if (aux->sig == NULL){
+    }if (aux->sig == nullptr){
         sVida.setPosition(aux->posicionX , aux->posicionY);
         pantalla->draw(sVida);
     }
@@ -46,7 +44,7 @@ void vida::dibujar(RenderWindow *pantalla) {
  void vida::deletear() {
     nodo *aux;
     aux = cima;
-    if(aux->vidas==1){
+    if(aux->sig== nullptr){
         delete cima;
         delete aux;
 

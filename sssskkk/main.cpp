@@ -4,7 +4,7 @@
 #include <SFML/Graphics.hpp>
 #include "vida.h"
 #include "score.h"
-
+#include "textos.h"
 using namespace sf;
 
 
@@ -31,18 +31,8 @@ int main() {
     Comer = true;
     int direccion=0; //Variables.
 
-    /*Font font;
-    font.loadFromFile("font.ttf");
-    Text text;
-    text.setFont(font);
-    text.setPosition(200, 0);
-    text.setCharacterSize(24);
-    text.setFillColor(sf::Color::White);
-    text.setString("SCORE:");*/
-    //pantalla.draw(text);
-
-
-
+   //textos texto1;
+  // texto1.constructor(200,0,24,"hola tinchox");
 
     while (pantalla.isOpen()) {
         Event e;
@@ -84,7 +74,6 @@ int main() {
         jugador.moverse(direccion);
         pantalla.draw(sFondoDePantalla);
         Comida.dibujar(&pantalla);
-
         if (bida>=1){
         vidas.dibujar(&pantalla);
         } else {

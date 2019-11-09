@@ -4,17 +4,17 @@ set(CMAKE_DEPENDS_LANGUAGES
   )
 # The set of files for implicit dependencies of each language:
 set(CMAKE_DEPENDS_CHECK_CXX
-  "C:/Users/martin skere/Desktop/5-11/comida.cpp" "C:/Users/martin skere/Desktop/5-11/cmake-build-debug/CMakeFiles/proyectoSnake.dir/comida.cpp.obj"
-  "C:/Users/martin skere/Desktop/5-11/main.cpp" "C:/Users/martin skere/Desktop/5-11/cmake-build-debug/CMakeFiles/proyectoSnake.dir/main.cpp.obj"
-  "C:/Users/martin skere/Desktop/5-11/score.cpp" "C:/Users/martin skere/Desktop/5-11/cmake-build-debug/CMakeFiles/proyectoSnake.dir/score.cpp.obj"
-  "C:/Users/martin skere/Desktop/5-11/vibora.cpp" "C:/Users/martin skere/Desktop/5-11/cmake-build-debug/CMakeFiles/proyectoSnake.dir/vibora.cpp.obj"
-  "C:/Users/martin skere/Desktop/5-11/vida.cpp" "C:/Users/martin skere/Desktop/5-11/cmake-build-debug/CMakeFiles/proyectoSnake.dir/vida.cpp.obj"
+  "C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/comida.cpp" "C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/cmake-build-debug/CMakeFiles/proyectoSnake.dir/comida.cpp.obj"
+  "C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/main.cpp" "C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/cmake-build-debug/CMakeFiles/proyectoSnake.dir/main.cpp.obj"
+  "C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/score.cpp" "C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/cmake-build-debug/CMakeFiles/proyectoSnake.dir/score.cpp.obj"
+  "C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/textos.cpp" "C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/cmake-build-debug/CMakeFiles/proyectoSnake.dir/textos.cpp.obj"
+  "C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/vibora.cpp" "C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/cmake-build-debug/CMakeFiles/proyectoSnake.dir/vibora.cpp.obj"
+  "C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/vida.cpp" "C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/sssskkk/cmake-build-debug/CMakeFiles/proyectoSnake.dir/vida.cpp.obj"
   )
 set(CMAKE_CXX_COMPILER_ID "GNU")
 
 # The include file search paths:
 set(CMAKE_CXX_TARGET_INCLUDE_PATH
-  "C:/mingw32/include"
   )
 
 # Targets to which this target links.
