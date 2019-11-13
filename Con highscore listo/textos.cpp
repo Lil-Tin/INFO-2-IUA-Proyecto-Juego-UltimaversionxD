@@ -15,8 +15,6 @@ void textos::constructor(int posX, int posY, int size , std::string cadenaDeText
     texto.setFont(font);
     texto.setPosition(posX, posY);
     texto.setCharacterSize(size);
-    texto.setColor(Color::Red);
-    texto.setFillColor(sf::Color::White);
     texto.setString(cadenaDeTexto);
     texto.setColor(colorTexto);
 }

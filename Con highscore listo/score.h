@@ -8,23 +8,25 @@
 #include <SFML/Graphics.hpp>
 #include <string>
 #include "textos.h"
-#include "LinkedList.h"
-
+#include <list>
 
 class score {
 private:
     float cronometro , cronometrototal;
     int score=0;
-    textos scoreMostrar;
-    LinkedList<int> highscores;
-    LinkedList<std::string> nombres;
+    std::list <int >highscores;
+    std::list<std::string> nombres;  // no estan implementados.
+
 public:
     void gano();
     void tiempo();
     std::string devolverscore();
     void highscore();
     void dibujarhigscore(RenderWindow *);
-
+    void mostrarListaNombres(); // <--- (mostrar lista de highscore)
+    void cambiarListaHighScore(); // <-----(Pone el score actual en la lista, la ordena,
+                                 //         y elimina el elemento mas chico)
+    void cambiarArchivos();
 };
 
 

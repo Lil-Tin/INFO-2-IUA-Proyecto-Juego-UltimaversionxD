@@ -10,7 +10,7 @@ void menu::constructor() {
     sFondo.setTexture(tFondo);
     sFondo.setPosition(0,0);
     play.constructor(220,150,86,"play",Color::Red);
-    lose.constructor(220,150,86,"no jaja",Color::Red);
+    lose.constructor(75,35,34,"Perdiste\nTOP 10",Color::Red);
 }
 
 void menu::inicio(RenderWindow *pantalla) {

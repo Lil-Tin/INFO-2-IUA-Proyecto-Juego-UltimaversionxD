@@ -1,4 +1,4 @@
-# Install script for directory: C:/Users/martin skere/Desktop/INFO-2-IUA-Proyecto-Juego-UltimaversionxD-master/controlar
+# Install script for directory: C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/INFO-2-IUA-Proyecto-Juego-UltimaversionxD-master/controlar
 
 # Set the install prefix
 if(NOT DEFINED CMAKE_INSTALL_PREFIX)
@@ -40,5 +40,5 @@ endif()
 
 string(REPLACE ";" "\n" CMAKE_INSTALL_MANIFEST_CONTENT
        "${CMAKE_INSTALL_MANIFEST_FILES}")
-file(WRITE "C:/Users/martin skere/Desktop/INFO-2-IUA-Proyecto-Juego-UltimaversionxD-master/controlar/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
+file(WRITE "C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/INFO-2-IUA-Proyecto-Juego-UltimaversionxD-master/controlar/cmake-build-debug/${CMAKE_INSTALL_MANIFEST}"
      "${CMAKE_INSTALL_MANIFEST_CONTENT}")

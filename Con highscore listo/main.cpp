@@ -30,7 +30,7 @@ int main() {
     menu.constructor(); //
 
     bool salirMenu= true;    //
-    int bida=4, aux=0;             //
+    int bida=4;             //
     bool Comer = true;     //
     int direccion=0;      //Variables.
     std::string puntuacion="s"; //
@@ -47,12 +47,15 @@ int main() {
    while (pantalla.isOpen()) {
         Event e;
         while (pantalla.pollEvent(e)) {
-            if (e.type == Event::Closed)
-                pantalla.close();
-
-
+            switch (e.type) {
+                case Event::Closed:
+                    pantalla.close();
+                    break;
+                case Event::TextEntered:
+                    std::cout << "ENTRADADETEXTO" << std::endl;
+                    break;
+            }
         }
-
         pantalla.clear();
 
         //MENU CICLO
@@ -140,19 +143,19 @@ int main() {
             jugador.dibujar(&pantalla,direccion);
         }else{
            salirMenu=false;
-           do{
+            Score.highscore();
+            Score.cambiarArchivos();
+            do{
                pantalla.clear();
                menu.perdio(&pantalla);
                Score.dibujarhigscore(&pantalla);
                pantalla.display();
 
-               if (aux==0){
-                   Score.highscore();
-                   aux++;
-               }
 
 
            }while (!Keyboard::isKeyPressed(Keyboard::Enter));
+        pantalla.clear(Color::White);
+            return 0;
         }
 
         pantalla.display();

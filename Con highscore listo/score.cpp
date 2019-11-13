@@ -8,6 +8,8 @@
 #include <string>
 #include <fstream>
 #include "textos.h"
+#include <stdlib.h>
+//#include <list>
 
 
 
@@ -44,9 +46,10 @@ void score::gano() {
 void score::highscore() {
     int i=0, x=0;
     std::string r;
+    int textoScoreInt=0;
     std::ifstream leerscores,leernombres;
 
-    std::string texto;
+
     leerscores.open("textos/highscore.txt",std::ios::in);
     leernombres.open("textos/nombres.txt", std::ios::in);
 
@@ -55,71 +58,69 @@ void score::highscore() {
     } else {
         while (!leerscores.eof() && !leernombres.eof()){
             std::getline(leernombres, r);
-            nombres.put(r, i);
-            std::getline(leerscores, texto);
-            x = std::stoi(texto);
-            highscores.put(x, i);
+            nombres.push_front(r);
+            leerscores>>textoScoreInt;
+            highscores.push_front(textoScoreInt);
             i++;
-            std::cout<<"se pudo"<<std::endl;
         }
 
     }
-    std::cout<<"se pudo 2"<<std::endl;
+    cambiarListaHighScore();
+    mostrarListaNombres();
+    leernombres.close();
+    leerscores.close();
+}
 
-    i=0, x=0;
-    int aux=0, aux2=0;
+void score::mostrarListaNombres() {
+    std::list<int >::iterator pos;
+    pos=highscores.begin();
 
-    while(i!=highscores.size() ){
-        x=highscores.get(i);
-        std::cout<<"entro al while"<<std::endl;
-        if(score>=x){
-            std::cout<<"entro al if"<<std::endl;
-            highscores.put(score, i);
-            std::cout<<highscores.get(i)<<std::endl;
-            aux=i+1;
-            while(aux<=highscores.size()){
-                std::cout<<"entro al while del if"<<std::endl;
-                aux2=highscores.get(aux);
-                highscores.put(x, aux);
-                x=aux2;
-                std::cout<<highscores.get(aux)<<std::endl;
-                aux=aux+1;
-            } if (aux>10){
-                highscores.remove(aux);
-                break;
-            }
-            i=i+100;
-
-        }
-
-        std::cout<<"listo"<<std::endl;
-        i=i+1;
-
+    while (pos!=highscores.end()){
+        std::cout<<*pos<<std::endl;
+        pos++;
     }
-
-    aux=200, aux2=100;
-    i=0;
-    std::string str="";
-    textos dibujahigh;
-
-
+    highscores.reverse();
 }
 
 void score::dibujarhigscore(RenderWindow *pantalla) {
-    int i=0, aux=220, aux2=150;
-    std::string str;
-    textos dibujahigh;
-
-    while(i!=highscores.size()){
-        str=std::to_string(score);
-        dibujahigh.constructor(aux, aux2, 24, str, Color::Red);
-        dibujahigh.dibujar(pantalla);
-        aux2=aux2-30;
+    int i=0, aux1=100, aux2=125;
+    std::string auxString;
+    textos dibujarhigh;
+    std::list<int >::iterator pos;
+    pos=highscores.begin();
+    while(i<10){
+        auxString=std::to_string(*pos);
+       dibujarhigh.constructor(aux1,aux2,22,auxString,Color::Red);
+        pos++;
+        aux2+=30;
+        i++;
+        dibujarhigh.dibujar(pantalla);
     }
+}
+
+void score::cambiarListaHighScore() {
+        highscores.push_back(score);
+        highscores.sort();
+        highscores.pop_front();
 
 }
 
+void score::cambiarArchivos() {
+    std::ofstream reescribirScore;
+    reescribirScore.open("textos/highscore.txt", std::ios::out);
+    std::list<int >::iterator pos;
+    pos = highscores.begin();
 
+    if (reescribirScore.fail()) {
+        std::cout << "No se pudo abrir" << std::endl;
+    } else {
+
+        for (int i = 0; i < 10; i++) {
+            reescribirScore<<*pos<<std::endl;
+            pos++;
+        }
+    }            reescribirScore.close();
+}
 
 
 
