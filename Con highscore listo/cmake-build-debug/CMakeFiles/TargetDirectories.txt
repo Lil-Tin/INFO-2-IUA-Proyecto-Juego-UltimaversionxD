@@ -1,3 +1,0 @@
-C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/Con highscore listo/cmake-build-debug/CMakeFiles/proyectoSnake.dir
-C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/Con highscore listo/cmake-build-debug/CMakeFiles/edit_cache.dir
-C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/Con highscore listo/cmake-build-debug/CMakeFiles/rebuild_cache.dir

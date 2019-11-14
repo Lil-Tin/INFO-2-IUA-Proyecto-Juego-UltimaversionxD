@@ -1,5 +1,0 @@
-"C:\Program Files\JetBrains\CLion 2019.2.5\bin\cmake\win\bin\cmake.exe" -DCMAKE_BUILD_TYPE=Debug -G "CodeBlocks - MinGW Makefiles" "C:\Users\Usuario\Desktop\GIT-Repositorio\INFO-2-IUA-Proyecto-Juego-UltimaversionxD\Con highscore listo"
--- Found SFML 2.5.1 in C:/Program Files (x86)/mingw-w64/i686-7.3.0-posix-dwarf-rt_v5-rev0/mingw32/lib/cmake/SFML
--- Configuring done
--- Generating done
--- Build files have been written to: C:/Users/Usuario/Desktop/GIT-Repositorio/INFO-2-IUA-Proyecto-Juego-UltimaversionxD/Con highscore listo/cmake-build-debug
